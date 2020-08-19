@@ -31,7 +31,7 @@ public class Program {
 		
 			}
 			catch(ChessException e) {
-				System.out.println("e.getmessage");
+				System.out.println(e.getMessage());
 				sc.nextLine();
 			}
 			catch(InputMismatchException e) {
